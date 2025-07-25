@@ -1,7 +1,7 @@
 # MSI-608
-# Proyecto 1: Análisis de Factores Asociados al Riesgo de Enfermedades Crónicas
+# Proyecto: Análisis de Factores Asociados al Riesgo de Enfermedades Crónicas
 
-Este repositorio contiene un script de Python generado a partir de un Notebook de Colab que realiza un análisis y predicción de factores asociados al riesgo de enfermedades crónicas utilizando PySpark, pandas, scikit-learn y diversas técnicas de visualización.
+Este repositorio contiene scripts de Python generado a partir de un Notebook de Colab que realiza un análisis y predicción de factores asociados al riesgo de enfermedades crónicas utilizando PySpark, pandas, scikit-learn y diversas técnicas de visualización.
 
 ## Requisitos
 
@@ -51,7 +51,8 @@ Este repositorio contiene un script de Python generado a partir de un Notebook d
 4. **Ejecuta el script**:
 
    ```bash
-   python "Proyecto 1.py"
+   python "Proyecto_1/Proyecto_1.py"
+   python "Proyecto_2/Proyecto_2.py"
    ```
 
 ## Descripción del Flujo
@@ -85,7 +86,7 @@ Este repositorio contiene un script de Python generado a partir de un Notebook d
      * **Random Forest**
      * **Gradient Boosting**
      * **Neural Network (MLPClassifier)**
-   * Evaluación con **accuracy**, **precision**, **recall**, **F1-score** y matrices de confusión (Top 3 GRD más frecuentes).
+   * Evaluación con **accuracy**, **precision**, **recall**, **F1-score**, **matrices de confusión**, **AUC** (Top 50 GRD más frecuentes).
 6. **Resultados**:
 
    * Impresión de métricas de desempeño para cada modelo.
